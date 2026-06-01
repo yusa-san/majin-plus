@@ -39,11 +39,10 @@
 
 このプロジェクトはMITライセンスの下でライセンスされています。詳細は[LICENSE](LICENSE)ファイルをご覧ください。
 
-Contributions are welcome! Please feel free to submit issues or pull requests.
+### お問い合わせ
 
-### Contact
-
-For questions or feedback, please open an issue on this repository.
+コントリビューション歓迎。Issue や Pull Request はお気軽にどうぞ！
+質問やフィードバックは、このリポジトリの Issue からお願いします。
 
 ---
 
@@ -80,3 +79,8 @@ This project is built on the **Majin Method** (まじん式) and its creator [@m
 ### License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+### Contact
+
+Contributions are welcome! Please feel free to submit issues or pull requests.
+For questions or feedback, please open an issue on this repository.
