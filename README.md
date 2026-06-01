@@ -20,13 +20,14 @@
 
 ### 基本的な使い方
 
-1. `index.html` をブラウザで開く
-2. （必要であれば）テンプレートとなる `.pptx` ファイルを追加する
-3. 色のマッピングを行う
-4. `majin-plus_v6.md` を Notion AI スキルに登録したうえで、Notion ページをもとに「アウトプットを出して」と伝える
-5. スライドの構成を確認されると同時に `template_analyzer.md` があるか聞かれるので、必要であればコピーして貼り付ける。スライドの構成も必要であれば修正する
-6. プライマリーカラーとフォントは好みのものを選ぶ
-7. 「スライドを生成」ボタンを押す
+1. `index.html` をブラウザで開く（インストール不要）
+2. （テンプレートを使う場合）アプリ右側「デザイン設定」パネルの「ファイルを選択(.pptx)」からテンプレートPPTXを読み込む
+3. 色のマッピングを行う：「アクセントカラーの対応付け」で、テンプレートのテーマカラー（色スウォッチ）を slideData の論理名（`blue` / `red` など）に割り当てる。テンプレートなしの場合は標準パレットが表示される
+4. `majin-plus_v6.md` を Notion AI のカスタムスキルとして登録したうえで、スライド化したい Notion ページを開き「アウトプットを出して」と伝える
+5. AI にスライド構成を確認される。同時に `template_analysis.md` があるか聞かれるので、テンプレートを使う場合はアプリの「📄 template_analysis.md を生成」ボタンを押してコピーし、チャットに貼り付ける（テンプレートなしの場合はそのまま「標準で」と答える）。構成も必要に応じて修正する
+6. AI が出力した slideData（JSON）をコピーし、アプリ左側「スライドデータを入力」欄に貼り付ける
+7. プライマリーカラーとフォントを好みのものに設定する
+8. 「プレゼンテーションを生成」ボタンを押す
 
 ### 謝辞
 
@@ -61,13 +62,14 @@ For questions or feedback, please open an issue on this repository.
 
 ### Basic Usage
 
-1. Open `index.html` in your browser
-2. (If needed) Add a `.pptx` file to use as a template
-3. Configure the color mapping
-4. Register `majin-plus_v6.md` as a Notion AI skill, then open your Notion page and say "Generate output"
-5. You will be asked to confirm the slide structure and whether `template_analyzer.md` is available — paste it in if needed, and adjust the slide structure as necessary
-6. Choose your preferred primary color and font
-7. Click the "Generate Slides" button
+1. Open `index.html` in your browser (no installation required)
+2. (If using a template) In the "Design Settings" panel on the right, click "Select File (.pptx)" to load your template PPTX
+3. Configure color mapping: in the "Accent Color Mapping" section, assign each template theme color (color swatches) to a logical name used in slideData (`blue`, `red`, etc.). If no template is loaded, the default palette is shown instead
+4. Register `majin-plus_v6.md` as a custom Notion AI skill, then open the Notion page you want to turn into slides and say "Generate output"
+5. The AI will ask you to confirm the slide structure. It will also ask whether you have a `template_analysis.md` — if you loaded a template in step 2, click the "📄 Generate template_analysis.md" button in the app, copy the output, and paste it into the chat. If not using a template, simply reply "Use standard layout." Adjust the slide structure as needed
+6. Copy the slideData (JSON) output from the AI and paste it into the "Enter Slide Data" field on the left side of the app
+7. Set your preferred primary color and font
+8. Click the "Generate Presentation" button
 
 ### Acknowledgments
 
