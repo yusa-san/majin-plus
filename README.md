@@ -10,6 +10,7 @@
 ### 概要
 
 **Majin Plus** は、Google Apps Script（GAS）アプリケーションとして公開されている [まじん式 v3](https://note.com/majin_108/n/n11fc2f2190e9) をベースにしたローカルHTMLアプリケーションです。このプロジェクトは、まじん式の生産性向上メソッドをスタンドアロンのローカルアプリとして再実装し、特にNotionユーザー向けの機能を強化しています。
+<img width="1903" height="1027" alt="image" src="https://github.com/user-attachments/assets/6795f9bd-906b-4e04-9b90-f0f45a1cad9d" />
 
 ### 特徴
 
